@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+body{
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.container{
+    min-height: 72vh;
+    background-color:black ;
+    color:white;
+    font-family: "Roboto Condensed", sans-serif;
+    display: flex;
+    margin: 23px auto;
+    border-radius: 12px;
+    padding: 34px;
+    background: url("images/banner2.jpg");
+    background-size: 75rem;
+    background-position-x: right;
+}
+
+.songitem{
+display: flex;
+background-color: #fff;
+width: 15rem;
+border-radius: 20px;
+color: black;
+margin: 12px 0;
+align-items: center;
+justify-content: space-between;
+}
+
+.songitem img{
+    height: 6vh;
+    border-radius: 20px;
+}
+.timestamp{
+    margin: 0 20px;
+    cursor: pointer;
+}
+
+.songbanner{
+    margin: 38px 0 0 0;
+}
+
+.bottom{
+    position: sticky;
+    height: 100px;
+    background-color: black;
+    margin-top: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#progressbar{
+    width: 80%;
+    cursor: pointer;
+    /* text-align: center; */
+}
+
+.icons{
+    margin: 14px;
+    padding: 0rem 10rem;
+}
+
+.icons i{
+    cursor: pointer;
+}
+
+
+.music{
+    position: absolute;
+    left:10vw;
+  }
+  .music img{
+      opacity: 0;
+      transition: opacity 0.4s ease-in;
+  }
